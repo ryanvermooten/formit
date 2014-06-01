@@ -2,11 +2,11 @@
   <h1> All of the trainers </h1>
 </div>
 
-<%= link_to "Create a New Trainer", new_trainer_path %>
+<%= link_to "Create a New Trainer", new_trainer_path, class: "btn btn-success" %>
 
 <% @trainers.each do |trainer| %>
 <div class="trainer">
-  <stong><%= trainer.name %></strong>
+  <strong><%= trainer.name %></strong>
     <p><%= trainer.cell_number %></p>
     <div class="meta">
       <%= link_to "show", trainer %>
