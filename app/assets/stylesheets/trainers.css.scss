@@ -1,3 +1,20 @@
-// Place all the styles related to the trainers controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.trainer {
+	border-bottom: solid 1px #CCC;
+	padding: 5px 0;
+}
+
+.trainer p {
+	margin: 4px 0;
+}
+
+.trainer.hover {
+  background: #FAFAFA;
+}
+
+.trainer .admin {
+	display: none;
+}
+
+.trainer.hover .admin {
+display: inline;
+}
